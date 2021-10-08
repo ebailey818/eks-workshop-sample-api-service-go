@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Commit message - TESTING"}
+		res := &response{Message: "Commit message"}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
